@@ -59,10 +59,10 @@ CHECK = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden
 def li(t, d): return f'<li>{CHECK}<span><strong>{t}</strong>{d}</span></li>'
 
 index = head("Datahedge — a futures-style trading screen for prediction markets",
-             "Datahedge turns prediction-market data into a pro trading screen: live chart, order book and time & sales, with drag-to-set stops and targets. Coming soon for Windows.") + f'''<main>
+             "Datahedge turns prediction-market data into a pro trading screen: live chart, order book and time & sales, with drag-to-set stops and targets. Coming soon for Windows or Mac.") + f'''<main>
 <section class="hero">
   <div class="wrap">
-    <div class="pill"><i></i>Coming soon for Windows &middot; early access open</div>
+    <div class="pill"><i></i>Coming soon for Windows or Mac &middot; early access open</div>
     <h1>Trade event contracts like a <em>futures desk.</em></h1>
     <p class="lede">Datahedge turns prediction-market data into a professional trading screen: a live chart, a full order book and time &amp; sales, with orders, stops and targets placed right on the chart.</p>
     <div class="cta">
@@ -71,7 +71,7 @@ index = head("Datahedge — a futures-style trading screen for prediction market
     </div>
     <p class="small">Runs on your own computer. Your exchange account and API keys stay yours.</p>
     <figure class="shot rv">
-      <div class="frame"><img src="assets/app.webp" srcset="assets/app-1440.webp 1440w, assets/app.webp 2880w" sizes="(max-width: 1240px) 100vw, 1200px" width="2880" height="1720" alt="The Datahedge trading screen in paper mode: a long position of 25 contracts at 53 cents, with a take-profit order at 62 cents and a stop-loss at 46 cents drawn on the chart and marked in the order book, plus time and sales below."></div>
+      <div class="frame"><img src="assets/app.webp" srcset="assets/app-1440.webp 1440w, assets/app.webp 2880w" sizes="(max-width: 1240px) 100vw, 1200px" width="2880" height="1720" alt="The Datahedge trading screen in paper mode: a Bitcoin 15-minute up/down market with a long position of 25 contracts at 65 cents, a take-profit order at 76 cents and a stop-loss at 56 cents drawn on the chart and marked in the order book, plus time and sales below."></div>
       <figcaption class="cap"><span><b style="background:var(--lav)"></b>Lavender ring = paper money</span><span><b style="background:var(--live)"></b>Green ring = real money</span></figcaption>
     </figure>
   </div>
@@ -89,7 +89,7 @@ index = head("Datahedge — a futures-style trading screen for prediction market
         {li("Fills on the chart", "See exactly where you got in and out.")}
       </ul>
     </div>
-    <div class="media rv"><img src="assets/chart.webp" width="1276" height="840" loading="lazy" alt="Close-up of the Datahedge chart with a position line at 53 cents, a take-profit line at 62 cents and a stop-loss line at 46 cents, each showing its profit or loss."></div>
+    <div class="media rv"><img src="assets/chart.webp" width="1660" height="680" loading="lazy" alt="Close-up of the Datahedge chart with a position line at 65 cents, a take-profit line at 76 cents and a stop-loss line at 56 cents, each showing its profit or loss."></div>
   </div>
 </section>
 
@@ -105,7 +105,7 @@ index = head("Datahedge — a futures-style trading screen for prediction market
         {li("Streaming data", "Connect your keys and the book and trades update the moment they change.")}
       </ul>
     </div>
-    <div class="media rv" style="max-width:340px;justify-self:center"><img src="assets/book.webp" width="580" height="1220" loading="lazy" alt="The Datahedge order book with bid size, price, ask size and traded volume at each level, marking the long position, the take-profit and the stop-loss at their prices."></div>
+    <div class="media rv" style="max-width:340px;justify-self:center"><img src="assets/book.webp" width="580" height="1070" loading="lazy" alt="The Datahedge order book with bid size, price, ask size and traded volume at each level, marking the long position at 65 cents and the stop-loss at 56 cents."></div>
   </div>
 </section>
 
