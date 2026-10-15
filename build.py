@@ -1,5 +1,5 @@
 # Generates the static pages so the header and footer stay identical everywhere.
-LOGO = '''<svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1b1720"/><path d="M10 5v22M22 5v22" stroke="#efe7da" stroke-width="1.6" opacity=".45"/><rect x="7" y="10" width="6" height="10" rx="1" fill="#86c5ae"/><rect x="19" y="13" width="6" height="8" rx="1" fill="#e09a86"/></svg>'''
+LOGO = '''<svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#1b1720"/><g transform="translate(0 0) scale(1)"><rect x="16" y="17.90" width="49.60" height="9.79" rx="4.90" fill="#e09a86"/><rect x="16" y="31.50" width="64.16" height="9.79" rx="4.90" fill="#e09a86"/><rect x="16" y="45.10" width="68.00" height="9.79" rx="4.90" fill="#bfa6e3"/><rect x="16" y="58.70" width="64.16" height="9.79" rx="4.90" fill="#86c5ae"/><rect x="16" y="72.30" width="49.60" height="9.79" rx="4.90" fill="#86c5ae"/></g></svg>'''
 MAIL = "mailto:manager@hedgeyourdata.com?subject=Datahedge%20early%20access"
 def head(title, desc):
     return f'''<!doctype html>
@@ -13,7 +13,9 @@ def head(title, desc):
 <meta property="og:description" content="{desc}">
 <meta property="og:image" content="assets/app-1440.webp">
 <meta name="theme-color" content="#0e0c11">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
